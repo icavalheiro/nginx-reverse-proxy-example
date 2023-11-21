@@ -2,8 +2,8 @@ server {
     server_name mywebsite.com;
 
     # HTTP configuration
-    listen 8080;
-    listen [::]:8080;
+    listen 80;
+    listen [::]:80;
 
     # HTTP to HTTPS
     # if ($scheme != "https") {
